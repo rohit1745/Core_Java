@@ -10,7 +10,7 @@ public class input {
         Scanner sc=new Scanner(System.in);
 
         System.out.println("Enter your Name"); 
-        String name=sc.nextLine();
+        String name=sc.next("rohit");
 
         System.out.println("Enter your Roll_No"); 
         int Roll_No=sc.nextInt();
